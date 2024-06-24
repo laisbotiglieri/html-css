@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title> 
+    <style>
+        body {
+            background-color: gray;
+        } 
+
+        main {
+            background-color: white;
+            padding: 20px; 
+            border-radius: 10px;
+
+            min-width: 300px;
+            max-width: 800px;
+            margin: auto; /*centraliza o conteúdo*/
+        }
+
+        img {
+            width: 100%;
+        }
+
+        /* envelopar imagens em picture -> responsividade de imagem*/
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus natus est aut, explicabo dolore eos ab aperiam eveniet dignissimos debitis cum, veritatis ea corrupti. Necessitatibus sit itaque repellendus a ipsum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum accusantium voluptatibus exercitationem, molestias suscipit commodi ut aut eius velit in voluptatum numquam quidem illo et labore magni impedit ipsa maiores. 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus commodi nihil repellat qui nobis possimus ipsam culpa, quod corporis fuga voluptatum reprehenderit facere neque inventore natus molestias recusandae iure.
+        </p> 
+        <picture> 
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina">
+        </picture>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus natus est aut, explicabo dolore eos ab aperiam eveniet dignissimos debitis cum, veritatis ea corrupti. Necessitatibus sit itaque repellendus a ipsum!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum accusantium voluptatibus exercitationem, molestias suscipit commodi ut aut eius velit in voluptatum numquam quidem illo et labore magni impedit ipsa maiores. 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatibus commodi nihil repellat qui nobis possimus ipsam culpa, quod corporis fuga voluptatum reprehenderit facere neque inventore natus molestias recusandae iure.
+        </p> 
+    </main>
+    
+</body>
+</html>

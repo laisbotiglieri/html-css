@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Exernas</title>
+    <style>
+        @font-face {
+            font-family: 'Lovely';
+            src: url('fontes/Lovely Valentine Script.otf') format('opentype'), url('fontes/Lovely Valentine Script.ttf') format('truetype'); 
+            font-weight: normal;
+            font-size: normal; 
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf) 
+            - embeded-opentype
+            - trueopentype-att (apple advanced typography)
+            - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'Lovely', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tenetur, optio eligendi repellat distinctio illo adipisci vel molestias doloremque tempora facilis similique ea doloribus iure beatae. Doloremque alias nihil ea.</p>  
+</body>
+</html>
